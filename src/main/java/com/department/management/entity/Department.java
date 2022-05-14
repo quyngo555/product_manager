@@ -1,7 +1,6 @@
-package com.product.management.entity;
+package com.department.management.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,8 +13,7 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class Product {
+public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
